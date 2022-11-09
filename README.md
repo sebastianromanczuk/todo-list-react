@@ -1,6 +1,7 @@
 # todo-list-react
 
-#functions used
+## functions used
+
 -CSS
 -JAVASCRIPT
 -HTML
