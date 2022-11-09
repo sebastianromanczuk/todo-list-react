@@ -1,0 +1,40 @@
+.article {
+    background-color: white;
+    margin-top: 15px;
+}
+
+.article__header {
+    padding: 20px;
+    margin: 0;
+    border-bottom: 1px solid rgb(223, 216, 216);
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+}
+
+@media(max-width: 766px) {
+    .article__header {
+        grid-template-columns: 1fr;
+    }
+}
+
+.article__button {
+    border: none;
+    background-color: white;
+    color: teal;
+    font-size: 18px;
+    transition: 1s;
+}
+
+@media(max-width: 766px) {
+    .article__button {
+        margin-top: 20px;
+    }
+}
+
+.article__button:hover {
+    color: hsl(182, 100%, 30%);
+}
+
+.article__button:disabled {
+    color: gray;
+}
